@@ -47,7 +47,7 @@ hangman_stages = ["""
       ===''',]
 #choose a word at random from word list
 chosen_word = random.choice(words)
-print(chosen_word)
+# print(chosen_word)
 
 word_display = ['_'for _ in chosen_word]
 
